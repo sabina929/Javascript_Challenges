@@ -13,6 +13,7 @@ function unique1(str) {
   }
   return true
 }
+
 function unique2(str) {
   return new Set(str).size === str.length;
 
